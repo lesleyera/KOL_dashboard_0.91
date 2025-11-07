@@ -116,14 +116,13 @@ def get_dashboard_data(df_plan, df_actual, report_date):
         df_actual_processed[['Year', 'Month_Num', 'Day']].rename(columns={'Month_Num': 'Month'})
     )
 
-    # 기준일(report_date) 이전의 실적만 필터링
     df_actual_to_date = df_actual_processed[
         df_actual_processed['Activity_Date'] <= report_date
     ].copy()
     
     df_actual_to_date['Task'] = df_actual_to_date['Activity'].str.strip().map(ACTIVITY_TO_TASK_MAP)
     
-    # *** (KeyError 수정) 'KOL_ID'가 NaN이 아닌 실적만 집계
+    # (수정) KOL_ID가 NaN이 아닌 실적만 집계
     df_actual_to_date = df_actual_to_date.dropna(subset=['KOL_ID'])
     
     df_actual_counts = df_actual_to_date.dropna(subset=['Task', 'KOL_ID']).groupby(
@@ -183,9 +182,9 @@ def get_dashboard_data(df_plan, df_actual, report_date):
     
     df_dashboard['Gap'] = (df_dashboard['Target_Count'] - df_dashboard['Actual_Count']).apply(lambda x: max(x, 0)).astype(int)
     
-    # *** (수정) ID를 정수로 변환 ***
+    # (수정) ID를 정수로 변환
     df_dashboard['KOL_ID'] = df_dashboard['KOL_ID'].astype(int)
-    # 실적 데이터의 ID도 정수로 변환 (병합 오류 방지)
+    # (수정) 실적 데이터의 ID도 정수로 변환
     df_actual_to_date['KOL_ID'] = df_actual_to_date['KOL_ID'].astype(int)
     
     return df_dashboard, df_actual_to_date
@@ -205,25 +204,6 @@ def create_donut_chart(percent, title, color_hex):
     
     text = alt.Chart(pd.DataFrame({'value': [text_val]})).mark_text(
         align='center', baseline='middle', fontSize=30, fontWeight="bold", color=color_hex
-    ).encode(text='value')
-    return (pie + text).properties(title=title)
-
-def create_pacing_donut(pacing_percent, title, color_map):
-    is_delayed = pacing_percent < 100.0
-    color = color_map['Delayed'] if is_delayed else color_map['On Track']
-    text_color = color_map['Delayed_Text'] if is_delayed else color_map['On Track_Text']
-    
-    source = pd.DataFrame({"category": ["A", "B"], "value": [1, 0]})
-    
-    base = alt.Chart(source).encode(theta=alt.Theta("value", stack=True))
-    pie = base.mark_arc(outerRadius=120, innerRadius=80).encode(
-        color=alt.Color("category", scale={"domain": ["A", "B"], "range": [color, "#e0e0e0"]}, legend=None),
-    )
-    
-    text_val = f"{pacing_percent:.1f}%"
-
-    text = alt.Chart(pd.DataFrame({'value': [text_val]})).mark_text(
-        align='center', baseline='middle', fontSize=30, fontWeight="bold", color=text_color
     ).encode(text='value')
     return (pie + text).properties(title=title)
 
@@ -262,9 +242,10 @@ if df_plan_raw is not None and df_actual_raw is not None:
     # 메인 대시보드 데이터 계산
     df_dashboard, df_actual_to_date = get_dashboard_data(df_plan_raw, df_actual_raw, TODAY)
     
-    # --- 4-1. KPI 및 시각화 ---
+    # --- 4-1. (수정) KPI 및 시각화 ---
     st.header("종합 진척률 (KPIs)")
     
+    # (수정) 1:2 비율의 2개 컬럼 (월별 실적 분포 삭제)
     col1, col2 = st.columns([1, 2])
     
     # 1. 종합 진척률 (단순 건수 달성률)
@@ -276,7 +257,7 @@ if df_plan_raw is not None and df_actual_raw is not None:
         chart_annual = create_donut_chart(annual_perc, f"종합 진척률 (총 {total_target:.0f}건)", "#008080")
         st.altair_chart(chart_annual, use_container_width=True)
 
-    # 2. 월별 누적 진척률 라인 차트
+    # 2. (신규) 월별 누적 진척률 라인 차트
     with col2:
         st.subheader("월별 누적 진척률 (종합)")
         
@@ -289,6 +270,7 @@ if df_plan_raw is not None and df_actual_raw is not None:
             report_date = pd.to_datetime(datetime.date(YEAR, month_num, month_end_day))
             
             rate = 0.0
+            # 선택한 기준월(TODAY)보다 미래의 월은 계산하지 않고, 마지막 값으로 채움
             if report_date > TODAY:
                 if cumulative_data:
                     rate = cumulative_data[-1]['누적 진척률']
@@ -312,17 +294,17 @@ if df_plan_raw is not None and df_actual_raw is not None:
 
     st.markdown("---")
     
-    # --- 4-2. 지역별 실적 분포 (원그래프) ---
+    # --- 4-2. (수정) 지역별 실적 분포 (원그래프) ---
     st.header("지역별 실적 분포 (원그래프)")
     st.info(f"{TODAY.strftime('%Y-%m-%d')}까지 발생한 **실제 활동 건수**의 분포입니다.")
 
     col_pie_1, col_pie_2 = st.columns(2)
 
     with col_pie_1:
-        # (수정) df_actual_to_date와 df_dashboard의 Area/Country 정보를 병합
-        # (df_actual_to_date 자체에는 Area/Country가 없음)
-        kol_id_area_map = df_dashboard[['KOL_ID', 'Area']].drop_duplicates()
-        area_actuals = pd.merge(df_actual_to_date, kol_id_area_map, on='KOL_ID')
+        # *** (KeyError 수정) ***
+        # df_actual_to_date에서 'Area'가 NaN이 아닌 행만 골라 집계합니다.
+        # df_actual_to_date는 tracking.csv에서 직접 온 'Area' 컬럼을 가지고 있습니다.
+        area_actuals = df_actual_to_date.dropna(subset=['Area'])
         area_actuals_grouped = area_actuals.groupby('Area', as_index=False).size().rename(columns={'size': '실적 건수'})
         
         chart_area_dist = create_pie_chart(
@@ -334,8 +316,9 @@ if df_plan_raw is not None and df_actual_raw is not None:
         st.altair_chart(chart_area_dist, use_container_width=True)
 
     with col_pie_2:
-        kol_id_country_map = df_dashboard[['KOL_ID', 'Country']].drop_duplicates()
-        country_actuals = pd.merge(df_actual_to_date, kol_id_country_map, on='KOL_ID')
+        # *** (KeyError 수정) ***
+        # df_actual_to_date에서 'Country'가 NaN이 아닌 행만 골라 집계합니다.
+        country_actuals = df_actual_to_date.dropna(subset=['Country'])
         country_actuals_grouped = country_actuals.groupby('Country', as_index=False).size().rename(columns={'size': '실적 건수'})
         
         chart_country_dist = create_pie_chart(
@@ -348,7 +331,7 @@ if df_plan_raw is not None and df_actual_raw is not None:
         
     st.markdown("---")
     
-    # --- 4-3. 지역별 및 개인별 성과 (테이블 및 바 차트) ---
+    # --- 4-3. (수정) 지역별 및 개인별 성과 (테이블 및 바 차트) ---
     main_col, side_col = st.columns([2, 1])
 
     with main_col:
