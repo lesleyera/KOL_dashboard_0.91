@@ -1,0 +1,138 @@
+﻿Name,KOL_ID,Area,Country,Quarter,Month,Week,Activity
+Dr. Gary Finelle,103002,Europe,France,Q1,Feb,3w,case report
+Dr. Pierre Leclercq,103003,Europe,France,Q1,Feb,3w,case report
+Dr. Michalis Diomataris,107001,Europe,Greece,Q1,Feb,3w,case report
+Dr. Marco Tallarico,111001,Europe,Italy,Q1,Mar,1w,Contract
+Dr. Antonino Cacioppo,111002,Europe,Italy,Q1,Mar,3w,case report
+Dr. Łukasz Zadrożny,108003,Europe,Poland,Q1,Mar,4w,case report
+Dr. Robert Jung,101001,Europe,UK,Q2,April,2w,Contract
+Dr. Filip Rebelo,102001,Europe,Sweden,Q2,April,2w,Contract
+Dr. Emmanuel Bocquet,103004,Europe,France,Q2,April,2w,Contract
+Dr. Oguz Emeklibas,104001,Europe,Germany,Q2,April,2w,Contract
+Dr. Marco Tallarico,111001,Europe,Italy,Q2,April,2w,i900 shipment
+Dr. Filip Rebelo,102001,Europe,Sweden,Q2,April,3w,i900c shipment
+Dr. Emmanuel Bocquet,103004,Europe,France,Q2,April,3w,i900c shipment
+Dr. Sapaar Bayarmagnai,202001,APAC,Mongolia,Q2,April,3w,Contract
+Dr. Sameh Shaaban,301001,MEA,Egypt,Q2,April,3w,Contract
+Dr. Amr Elkhadem,301002,MEA,Egypt,Q2,April,3w,Contract
+Dr. Mohamed elashry,301003,MEA,Egypt,Q2,April,3w,Contract
+Dr. Alexandre Richard,103001,Europe,France,Q2,April,4w,Contract
+Dr. Sapaar Bayarmagnai,202001,APAC,Mongolia,Q2,April,4w,i900c shipment
+Dr. Sameh Shaaban,301001,MEA,Egypt,Q2,April,4w,Lecture
+Dr. Amr Elkhadem,301002,MEA,Egypt,Q2,April,4w,Lecture
+Dr. Mohamed elashry,301003,MEA,Egypt,Q2,April,4w,Lecture
+Dr. Sameh Shaaban,301001,MEA,Egypt,Q2,April,5w,i900c shipment
+Dr. Amr Elkhadem,301002,MEA,Egypt,Q2,April,5w,i900c shipment
+Dr. Mohamed elashry,301003,MEA,Egypt,Q2,April,5w,i900c shipment
+Dr. Filip Rebelo,102001,Europe,Sweden,Q2,May,1w,Contents creation
+Dr. Oguz Emeklibas,104001,Europe,Germany,Q2,May,1w,Lecture
+Dr. Oguz Emeklibas,104001,Europe,Germany,Q2,May,2w,Article
+Dr. Gabriel Musetescu,106001,Europe,Romania,Q2,May,2w,Lecture
+Dr. Robert Jung,101001,Europe,UK,Q2,May,3w,Lecture
+Dr. Filip Rebelo,102001,Europe,Sweden,Q2,May,4w,Lecture
+Dr. Alexandre Richard,103001,Europe,France,Q2,May,4w,i900 shipment
+Dr. Justinas Pletkus,105001,Europe,Lithuania,Q2,May,4w,Contract
+Dr. Gabriel Musetescu,106001,Europe,Romania,Q2,May,4w,Contract
+Dr. Priyam Aditya,203002,APAC,India,Q2,May,5w,Lecture
+Dr. Sameh Shaaban,301001,MEA,Egypt,Q2,May,5w,Lecture
+Dr. Mohamed elashry,301003,MEA,Egypt,Q2,May,5w,Clinical Paper
+Dr. Oguz Emeklibas,104001,Europe,Germany,Q2,June,5w,Contract
+Dr. Justinas Pletkus,105001,Europe,Lithuania,Q2,June,5w,i900c shipment
+Dr. Gabriel Musetescu,106001,Europe,Romania,Q2,June,5w,i900c shipment
+Dr. Robert Jung,101001,Europe,UK,Q3,July,1w,MOS Test
+Dr. Emmanuel Bocquet,103004,Europe,France,Q3,July,1w,MOS Test
+Dr. Michalis Diomataris,107001,Europe,Greece,Q3,July,1w,Contract
+Dr. Łukasz Zadrożny,108003,Europe,Poland,Q3,July,2w,Contract
+Dr. Anton Sadovnyshyi,109001,Europe,Ukraine,Q3,July,2w,Contract
+Dr. Yevhenii Sluchevskyi,109002,Europe,Ukraine,Q3,July,2w,Contract
+Dr. Marco Tallarico,111001,Europe,Italy,Q3,July,2w,Clinical Paper
+Dr. Priyam Aditya,203002,APAC,India,Q3,July,2w,Contract
+Dr. Manapat Thaveeprungsiporn,205001,APAC,Thailand,Q3,July,2w,Contract
+Dr. Michalis Diomataris,107001,Europe,Greece,Q3,July,3w,i900c shipment
+Dr. Łukasz Zadrożny,108003,Europe,Poland,Q3,July,3w,i900c shipment
+Dr. Gabriel Musetescu,106001,Europe,Romania,Q3,July,4w,i900MTest
+Dr. Anton Sadovnyshyi,109001,Europe,Ukraine,Q3,July,4w,MOS Test
+Dr. Yevhenii Sluchevskyi,109002,Europe,Ukraine,Q3,July,4w,MOS Test
+Dr. Manapat Thaveeprungsiporn,205001,APAC,Thailand,Q3,July,4w,MOS Test
+Dr. Alexandre Richard,103001,Europe,France,Q3,August,1w,i900MTest
+Dr. Marco Tallarico,111001,Europe,Italy,Q3,August,1w,i900MTest
+Dr. Oguz Emeklibas,104001,Europe,Germany,Q3,August,2w,i900MTest
+Dr. Michalis Diomataris,107001,Europe,Greece,Q3,August,2w,i900MTest
+Dr. Veiko Vengerfeldt,110001,Europe,Estonia,Q3,August,2w,Contract
+Dr. Ahmad Al Hassiny,204001,APAC,New Zealand,Q3,August,2w,Contract
+Dr. Sameh Shaaban,301001,MEA,Egypt,Q3,August,2w,Lecture
+Dr. Amr Elkhadem,301002,MEA,Egypt,Q3,August,2w,Lecture
+Dr. Mohamed elashry,301003,MEA,Egypt,Q3,August,2w,Lecture
+Dr. Michalis Diomataris,107001,Europe,Greece,Q3,August,3w,Lecture
+Dr. Ahmad Al Hassiny,204001,APAC,New Zealand,Q3,August,3w,Lecture
+Dr. Sardor Mirakhmedov,206001,APAC,Uzbekistan,Q3,August,3w,Contract
+Dr. Sameh Shaaban,301001,MEA,Egypt,Q3,August,3w,Testimonial
+Dr. Amr Elkhadem,301002,MEA,Egypt,Q3,August,3w,Testimonial
+Dr. Mohamed elashry,301003,MEA,Egypt,Q3,August,3w,Testimonial
+Dr. Robert Jung,101001,Europe,UK,Q3,August,4w,i900MTest
+Dr. Yevhenii Sluchevskyi,109002,Europe,Ukraine,Q3,August,4w,Lecture
+Dr. Manapat Thaveeprungsiporn,205001,APAC,Thailand,Q3,August,4w,Contents creation
+Dr. Michalis Diomataris,107001,Europe,Greece,Q3,August,5w,Contents creation
+Dr. Veiko Vengerfeldt,110001,Europe,Estonia,Q3,August,5w,i900c shipment
+Dr. Manapat Thaveeprungsiporn,205001,APAC,Thailand,Q3,August,5w,i900c shipment
+Dr. Oguz Emeklibas,104001,Europe,Germany,Q3,September,1w,Testimonial
+Dr. Antonino Cacioppo,111002,Europe,Italy,Q3,September,1w,Contract
+Dr. Ahmad Al Hassiny,204001,APAC,New Zealand,Q3,September,1w,Article
+Dr. Michalis Diomataris,107001,Europe,Greece,Q3,September,2w,Testimonial
+Dr. Grzegorz Wasiluk,108001,Europe,Poland,Q3,September,2w,Contract
+Dr. Łukasz Zadrożny,108003,Europe,Poland,Q3,September,2w,T710 shipment
+Dr. Anton Sadovnyshyi,109001,Europe,Ukraine,Q3,September,2w,ContentsCreation
+Dr. Swapnil Pande,203001,APAC,India,Q3,September,2w,Contract
+Dr. Robert Jung,101001,Europe,UK,Q3,September,3w,Auraview Test
+Dr. Łukasz Zadrożny,108003,Europe,Poland,Q3,September,3w,Lecture
+Dr. Anton Sadovnyshyi,109001,Europe,Ukraine,Q3,September,3w,ContentsCreation
+Dr. Veiko Vengerfeldt,110001,Europe,Estonia,Q3,September,3w,ContentsCreation
+Dr. Janghyun Paek,201001,APAC,Korea,Q3,September,3w,Contract
+Dr. Swapnil Pande,203001,APAC,India,Q3,September,3w,Lecture
+Dr. Gary Finelle,103002,Europe,France,Q3,September,4w,Contract
+Dr. Pierre Leclercq,103003,Europe,France,Q3,September,4w,Contract
+Dr. Anton Sadovnyshyi,109001,Europe,Ukraine,Q3,September,4w,i900M shipment
+Dr. Yevhenii Sluchevskyi,109002,Europe,Ukraine,Q3,September,4w,i900M shipment
+Dr. Manapat Thaveeprungsiporn,205001,APAC,Thailand,Q3,September,4w,Lecture
+Dr. Emmanuel Bocquet,103004,Europe,France,Q3,September,5w,Contents creation
+Dr. Oguz Emeklibas,104001,Europe,Germany,Q3,September,5w,Contents creation
+Dr. Frank Maier,104002,Europe,Germany,Q3,September,5w,Contract
+Dr. Simon Priess,104003,Europe,Germany,Q3,September,5w,Contract
+Dr. Yevhenii Sluchevskyi,109002,Europe,Ukraine,Q3,September,5w,Lecture
+Dr. Janghyun Paek,201001,APAC,Korea,Q3,September,5w,i900MTest
+Dr. Kenneth Lee,#N/A,#N/A,#N/A,Q3,September,5w,Contract
+Dr. Anton Sadovnyshyi,109001,Europe,Ukraine,Q4,October,1w,i900MTest
+Dr. Yevhenii Sluchevskyi,109002,Europe,Ukraine,Q4,October,1w,i900MTest
+Dr. Sardor Mirakhmedov,206001,APAC,Uzbekistan,Q4,October,1w,i900c shipment
+Dr. Anton Sadovnyshyi,109001,Europe,Ukraine,Q4,October,2w,Lecture
+Dr. Yevhenii Sluchevskyi,109002,Europe,Ukraine,Q4,October,2w,Lecture
+Dr. Veiko Vengerfeldt,110001,Europe,Estonia,Q4,October,2w,Lecture
+Dr. Marco Tallarico,111001,Europe,Italy,Q4,October,2w,Lecture
+Dr. Ahmad Al Hassiny,204001,APAC,New Zealand,Q4,October,2w,ContentsCreation
+Dr. Derek Mahonny,#N/A,#N/A,#N/A,Q4,October,2w,Contract
+Dr. Sardor Mirakhmedov,206001,APAC,Uzbekistan,Q4,October,2w,ContentsCreation
+Dr. Łukasz Zadrożny,108003,Europe,Poland,Q4,October,3w,Lecture
+Dr. Sapaar Bayarmagnai,202001,APAC,Mongolia,Q4,October,3w,Lecture
+Dr. Amr Elkhadem,301002,MEA,Egypt,Q4,October,3w,Clinical Paper
+Dr. Arass Jalal Noori,#N/A,#N/A,#N/A,Q4,October,3w,Contract
+Dr. Rekar Ismail,#N/A,#N/A,#N/A,Q4,October,3w,Contract
+Dr. Robert Jung,101001,Europe,UK,Q4,October,4w,Lecture
+Dr. Oguz Emeklibas,104001,Europe,Germany,Q4,October,4w,Lecture
+Dr. Simon Priess,104003,Europe,Germany,Q4,October,4w,ContentsCreation
+Dr. Ahmad Al Hassiny,204001,APAC,New Zealand,Q4,October,4w,ContentsCreation
+Dr. Amr Elkhadem,301002,MEA,Egypt,Q4,October,4w,Lecture
+Dr. Antonino Cacioppo,111002,Europe,Italy,Q4,October,5w,ContentsCreation
+Dr. Ahmad Al Hassiny,204001,APAC,New Zealand,Q4,November,1w,ContentsCreation
+Dr. Ahmad Al Hassiny,204001,APAC,New Zealand,Q4,November,3w,ContentsCreation
+Dr. Oguz Emeklibas,104001,Europe,Germany,Q4,November,4w,Lecture
+Dr. Łukasz Zadrożny,108003,Europe,Poland,Q4,November,4w,Lecture
+Dr. Alexandre Richard,103001,Europe,France,Q4,November,5w,Lecture
+Dr. Gary Finelle,103002,Europe,France,Q4,November,5w,Lecture
+Dr. Pierre Leclercq,103003,Europe,France,Q4,November,5w,Lecture
+Dr. Emmanuel Bocquet,103004,Europe,France,Q4,November,5w,Lecture
+Dr. Alexandre Richard,103001,Europe,France,Q4,December,5w,case report
+Dr. Pierre Leclercq,103003,Europe,France,Q4,December,5w,case report
+Dr. Emmanuel Bocquet,103004,Europe,France,Q4,December,5w,case report
+Dr. Veiko Vengerfeldt,110001,Europe,Estonia,Q4,December,5w,case report
+Dr. Derek Mahonny,#N/A,#N/A,#N/A,Q4,December,5w,case report
+Dr. Sameh Shaaban,301001,MEA,Egypt,Q4,December,5w,case report

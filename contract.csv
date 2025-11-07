@@ -1,0 +1,105 @@
+﻿Name,KOL_ID,Area,Country,Contract Value(USD),Contract Start,Contract End,Task,Activity,Frequency
+Dr. Robert Jung,101001,Europe,UK,,2025-04-11,2025-12-31,Lecture,offline lecture,3
+Dr. Filip Rebelo,102001,Europe,Sweden,,2025-04-10,2025-12-31,Lecture,offline lecture,3
+Dr. Filip Rebelo,102001,Europe,Sweden,,2025-04-10,2025-12-31,Case Report,Article case,1
+Dr. Alexandre Richard,103001,Europe,France,,2025-04-17,2025-12-31,Webinar,Webinar,1
+Dr. Alexandre Richard,103001,Europe,France,,2025-04-17,2025-12-31,Lecture,ADF Lecture,1
+Dr. Alexandre Richard,103001,Europe,France,,2025-04-17,2025-12-31,SNS Posting,social activities,1
+Dr. Gary Finelle,103002,Europe,France,,,,R&D Feedback,R&D Feedback,1
+Dr. Gary Finelle,103002,Europe,France,,,,Case Report,Case,1
+Dr. Gary Finelle,103002,Europe,France,,,,(Other),Contents creation,1
+Dr. Gary Finelle,103002,Europe,France,,,,Academy,Academy lectures,1
+Dr. Pierre Leclercq,103003,Europe,France,,,,R&D Feedback,R&D Feedback,1
+Dr. Pierre Leclercq,103003,Europe,France,,,,Case Report,Case,1
+Dr. Pierre Leclercq,103003,Europe,France,,,,(Other),Contents creation,1
+Dr. Pierre Leclercq,103003,Europe,France,,,,Academy,Academy lectures,1
+Dr. Emmanuel Bocquet,103004,Europe,France,,2025-04-10,2025-12-31,Case Report,Cases,3
+Dr. Emmanuel Bocquet,103004,Europe,France,,2025-04-10,2025-12-31,Lecture,ADF speaker,1
+Dr. Emmanuel Bocquet,103004,Europe,France,,2025-04-10,2025-12-31,Webinar,Webinar,1
+Dr. Emmanuel Bocquet,103004,Europe,France,,2025-04-10,2025-12-31,SNS Posting,Social engagement,1
+Dr. Oguz Emeklibas,104001,Europe,Germany,,2025-07-01,2026-07-01,Case Report,Cases,1
+Dr. Oguz Emeklibas,104001,Europe,Germany,,2025-07-01,2026-07-01,Lecture,Lecture,1
+Dr. Oguz Emeklibas,104001,Europe,Germany,,2025-07-01,2026-07-01,SNS Posting,Social Media,1
+Dr. Frank Maier,104002,Europe,Germany,,,,R&D Feedback,R&D Feedback,1
+Dr. Frank Maier,104002,Europe,Germany,,,,Case Report,Case,1
+Dr. Frank Maier,104002,Europe,Germany,,,,(Other),Contents creation,1
+Dr. Frank Maier,104002,Europe,Germany,,,,Academy,Academy lectures,1
+Dr. Simon Priess,104003,Europe,Germany,,,,R&D Feedback,R&D Feedback,1
+Dr. Simon Priess,104003,Europe,Germany,,,,Case Report,Case,1
+Dr. Simon Priess,104003,Europe,Germany,,,,(Other),Contents creation,1
+Dr. Simon Priess,104003,Europe,Germany,,,,Academy,Academy lectures,1
+Dr. Justinas Pletkus,105001,Europe,Lithuania,,,,(Other),TBD By dylam,1
+Dr. Justinas Pletkus,105002,Europe,Lithuania,,2025-05-07,2026-05-07,(Other),TBD By dylam,1
+Dr. Gabriel Musetescu,106001,Europe,Romania,,2025-05-01,2025-12-31,Hands-On,Hands-on course,1
+Dr. Gabriel Musetescu,106001,Europe,Romania,,2025-05-01,2025-12-31,Lecture,Lecture,1
+Dr. Gabriel Musetescu,106001,Europe,Romania,,2025-05-01,2025-12-31,Webinar,Webinar,1
+Dr. Michalis Diomataris,107001,Europe,Greece,,2025-07-01,2026-07-01,Lecture,Lectures at Conference,1
+Dr. Michalis Diomataris,107001,Europe,Greece,,2025-07-01,2026-07-01,Article,Article,1
+Dr. Michalis Diomataris,107001,Europe,Greece,,2025-07-01,2026-07-01,Academy,Academic content creation,1
+Dr. Grzegorz Wasiluk,108001,Europe,Poland,,,,R&D Feedback,R&D Feedback,1
+Dr. Grzegorz Wasiluk,108001,Europe,Poland,,,,Case Report,Case,1
+Dr. Grzegorz Wasiluk,108001,Europe,Poland,,,,(Other),Contents creation,1
+Dr. Grzegorz Wasiluk,108001,Europe,Poland,,,,Academy,Academy lectures,1
+Dr. Grzegorz Wasiluk,108002,Europe,Poland,,2025-08-30,2026-08-30,R&D Feedback,R&D Feedback,1
+Dr. Grzegorz Wasiluk,108002,Europe,Poland,,2025-08-30,2026-08-30,Case Report,Case,1
+Dr. Grzegorz Wasiluk,108002,Europe,Poland,,2025-08-30,2026-08-30,(Other),Contents creation,1
+Dr. Grzegorz Wasiluk,108002,Europe,Poland,,2025-08-30,2026-08-30,Academy,Academy lectures,1
+Dr. Łukasz Zadrożny,108003,Europe,Poland,,2025-06-08,2025-12-31,Lecture,Lectures,3
+Dr. Łukasz Zadrożny,108003,Europe,Poland,,2025-06-08,2025-12-31,Case Report,T-series case report,1
+Dr. Anton Sadovnyshyi,109001,Europe,Ukraine,,2025-07-14,2026-07-13,Lecture,lecture,4
+Dr. Anton Sadovnyshyi,109001,Europe,Ukraine,,2025-07-14,2026-07-13,SNS Posting,Social engagement,1
+Dr. Yevhenii Sluchevskyi,109002,Europe,Ukraine,,2025-07-14,2026-07-13,Lecture,lecture,4
+Dr. Yevhenii Sluchevskyi,109002,Europe,Ukraine,,2025-07-14,2026-07-13,SNS Posting,Social engagement,1
+Dr. Veiko Vengerfeldt,110001,Europe,Estonia,,,,R&D Feedback,R&D Feedback,1
+Dr. Veiko Vengerfeldt,110001,Europe,Estonia,,,,Case Report,Case,1
+Dr. Veiko Vengerfeldt,110001,Europe,Estonia,,,,(Other),Contents creation,1
+Dr. Veiko Vengerfeldt,110001,Europe,Estonia,,,,Academy,Academy lectures,1
+Dr. Marco Tallarico,111001,Europe,Italy,,2025-03-07,2026-03-07,Case Report,Clinical case report,1
+Dr. Antonino Cacioppo,111002,Europe,Italy,,,,R&D Feedback,R&D Feedback,1
+Dr. Antonino Cacioppo,111002,Europe,Italy,,,,Case Report,Case,1
+Dr. Antonino Cacioppo,111002,Europe,Italy,,,,(Other),Contents creation,1
+Dr. Antonino Cacioppo,111002,Europe,Italy,,,,Academy,Academy lectures,1
+Dr. Janghyun Paek,201001,APAC,Korea,,,,R&D Feedback,R&D Feedback,1
+Dr. Janghyun Paek,201001,APAC,Korea,,,,Case Report,Case,1
+Dr. Janghyun Paek,201001,APAC,Korea,,,,(Other),Contents creation,1
+Dr. Janghyun Paek,201001,APAC,Korea,,,,Academy,Academy lectures,1
+Dr. Sapaar Bayarmagnai,202001,APAC,Mongolia,,2025-04-16,2025-12-31,Hands-On,Hands on training,5
+Dr. Sapaar Bayarmagnai,202001,APAC,Mongolia,,2025-04-16,2025-12-31,(Other),Training at clinic,12
+Dr. Sapaar Bayarmagnai,202001,APAC,Mongolia,,2025-04-16,2025-12-31,Lecture,event lecture,1
+Dr. Swapnil Pande,203001,APAC,India,,,,R&D Feedback,R&D Feedback,1
+Dr. Swapnil Pande,203001,APAC,India,,,,Case Report,Case,1
+Dr. Swapnil Pande,203001,APAC,India,,,,(Other),Contents creation,1
+Dr. Swapnil Pande,203001,APAC,India,,,,Academy,Academy lectures,1
+Dr. Swapnil Pande,203001,APAC,India,,,,Lecture,Lecture,4
+Dr. Priyam Aditya,203002,APAC,India,,2025-04-16,2025-12-31,R&D Feedback,R&D Feedback,1
+Dr. Priyam Aditya,203002,APAC,India,,2025-04-16,2025-12-31,Case Report,Case,1
+Dr. Priyam Aditya,203002,APAC,India,,2025-04-16,2025-12-31,(Other),Contents creation,1
+Dr. Priyam Aditya,203002,APAC,India,,2025-04-16,2025-12-31,Academy,Academy lectures,1
+Dr. Priyam Aditya,203002,APAC,India,,2025-04-16,2025-12-31,Lecture,Lecture,3
+Dr. Ahmad Al Hassiny,204001,APAC,New Zealand,,2025-07-28,2026-07-28,Testimonial,"Product Review Project (i900c, i900m)",1
+Dr. Ahmad Al Hassiny,204001,APAC,New Zealand,,2025-07-28,2026-07-28,Article,Article,1
+Dr. Ahmad Al Hassiny,204001,APAC,New Zealand,,2025-07-28,2026-07-28,R&D Feedback,R&D Feedback,1
+Dr. Manapat Thaveeprungsiporn,205001,APAC,Thailand,,2025-07-01,2026-06-30,Lecture,Lectures at Conference,1
+Dr. Manapat Thaveeprungsiporn,205001,APAC,Thailand,,2025-07-01,2026-06-30,Article,Article,1
+Dr. Manapat Thaveeprungsiporn,205001,APAC,Thailand,,2025-07-01,2026-06-30,Academy,Academic content creation,1
+Dr. Sameh Shaaban,301001,MEA,Egypt,,2025-04-17,2025-12-31,Case Report,Cases,2
+Dr. Sameh Shaaban,301001,MEA,Egypt,,2025-04-17,2025-12-31,Lecture,offline lecture,2
+Dr. Sameh Shaaban,301001,MEA,Egypt,,2025-04-17,2025-12-31,R&D Feedback,R&D report,1
+Dr. Sameh Shaaban,301001,MEA,Egypt,,2025-04-17,2025-12-31,SNS Posting,Social engagement,1
+Dr. Amr Elkhadem,301002,MEA,Egypt,,2025-04-17,2025-12-31,Case Report,Cases,2
+Dr. Amr Elkhadem,301002,MEA,Egypt,,2025-04-17,2025-12-31,Lecture,offline lecture,2
+Dr. Amr Elkhadem,301002,MEA,Egypt,,2025-04-17,2025-12-31,R&D Feedback,R&D report,1
+Dr. Amr Elkhadem,301002,MEA,Egypt,,2025-04-17,2025-12-31,SNS Posting,Social engagement,1
+Dr. Mohamed Elashry,301003,MEA,Egypt,,2025-04-17,2025-12-31,Case Report,Cases,2
+Dr. Mohamed Elashry,301003,MEA,Egypt,,2025-04-17,2025-12-31,Lecture,offline lecture,2
+Dr. Mohamed Elashry,301003,MEA,Egypt,,2025-04-17,2025-12-31,(Other),University activities,1
+Dr. Mohamed Elashry,301003,MEA,Egypt,,2025-04-17,2025-12-31,SNS Posting,Social engagement,1
+Dr. Sardor Mirakhmedov,206001,APAC,Uzbekistan,,2025-08-14,2026-08-13,R&D Feedback,R&D Feedback,1
+Dr. Sardor Mirakhmedov,206001,APAC,Uzbekistan,,2025-08-14,2026-08-13,Case Report,Case,1
+Dr. Sardor Mirakhmedov,206001,APAC,Uzbekistan,,2025-08-14,2026-08-13,(Other),Contents creation,1
+Dr. Sardor Mirakhmedov,206001,APAC,Uzbekistan,,2025-08-14,2026-08-13,Academy,Academy lectures,1
+Dr. Kenneth Lee,,,,,,,,,
+Dr. Derek Mahonny,,,,,,,,,
+Dr. Arass Jalal Noori,,,,,,,,,
+Dr. Rekar Ismail,,,,,,,,,
+Dr. Derek Mahonny,,,,,,,,,
